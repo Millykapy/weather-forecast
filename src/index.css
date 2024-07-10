@@ -9,12 +9,24 @@ body {
   background-size: cover;
   min-height: 100vh;
   backdrop-filter: blur(2px);
+  color: rgb(189, 143, 250);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h1 {
+  font-size: 60px;
+  color: rgb(95, 95, 248);
+}
+p {
+  color: black;
+  font-style: italic;
+}
 form {
   padding: 50px;
+}
+a {
+  color: blue;
 }

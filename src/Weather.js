@@ -43,10 +43,10 @@ export default function Weather() {
       <div>
         {form}
         <ul>
-          <li>Temperature:{Math.round(weather.temperature)}ºC</li>
-          <li>Description:{weather.description}</li>
-          <li>Wind:{weather.wind}km/h</li>
-          <li>Humidity:{weather.humidity}%</li>
+          <li>Temperature: {Math.round(weather.temperature)} ºC</li>
+          <li>Description: {weather.description}</li>
+          <li>Wind: {weather.wind}km/h</li>
+          <li>Humidity: {weather.humidity} %</li>
           <img src={weather.icon} alt={weather.description} />
         </ul>
       </div>
